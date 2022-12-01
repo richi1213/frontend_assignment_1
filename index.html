@@ -4,14 +4,71 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Assigment 1</title>
+    <title>Assigment 2</title>
+    <style>
+      h1 {
+        text-align: center;
+      }
+
+      ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+      }
+      ul img {
+        width: 50px;
+        height: 50px;
+      }
+      form {
+        padding: 20px;
+      }
+    </style>
   </head>
   <body>
-    <h1>Front end development assigment 1</h1>
-    <h2>&#128193;Documents</h2>
-    <h3>&#128193;Music</h3>
-    <h4>&#128193;Quemmekh</h4>
-    <h5>&#128193;Bad songs</h5>
-    <p>&#9888; This fold is empty.</p>
+    <header>
+      <img src="images/skate.jpg" alt="skate" height="500" width="90%" />
+      <h1>Why you need drugs when you can skate?</h1>
+      <nav>
+        <ul>
+          <li>
+            <img src="images/s1.png" alt="icon1 of skate" /><a href="#">Blog</a>
+          </li>
+          <li>
+            <img src="images/s2.jpg" alt="icon2 of skate" /><a href="#"
+              >Challenges</a
+            >
+          </li>
+          <li>
+            <img src="images/s3.jpg" alt="icon3 of skate" /><a href="#"
+              >Contact</a
+            >
+          </li>
+          <li>
+            <img src="images/s4.jpg" alt="icon4 of skate" /><a href="#"
+              >About</a
+            >
+          </li>
+          <li>
+            <img src="images/s5.jpg" alt="icon4 of skate" /><a href="#">Shop</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <footer>
+      <form action="">
+        <label for="fname">First name:</label><br />
+        <input type="text" id="fname" name="fname" placeholder="Name" /><br />
+        <label for="lname">Last name:</label><br />
+        <input
+          type="text"
+          id="lname"
+          name="lname"
+          placeholder="Last name"
+        /><br /><br />
+        <input type="submit" value="Submit" />
+      </form>
+    </footer>
   </body>
 </html>
