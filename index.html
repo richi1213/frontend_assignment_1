@@ -9,7 +9,6 @@
       h1 {
         text-align: center;
       }
-
       ul {
         list-style: none;
         display: flex;
@@ -26,37 +25,37 @@
     </style>
   </head>
   <body>
+    <!-- header -->
     <header>
-      <img src="images/skate.jpg" alt="skate" height="500" width="90%" />
+      <img src="images/skate.jpg" alt="skate" height="500" width="100%" />
       <h1>Why you need drugs when you can skate?</h1>
       <nav>
         <ul>
-          <li>
-            <img src="images/s1.png" alt="icon1 of skate" /><a href="#">Blog</a>
-          </li>
-          <li>
-            <img src="images/s2.jpg" alt="icon2 of skate" /><a href="#"
-              >Challenges</a
-            >
-          </li>
-          <li>
-            <img src="images/s3.jpg" alt="icon3 of skate" /><a href="#"
-              >Contact</a
-            >
-          </li>
-          <li>
-            <img src="images/s4.jpg" alt="icon4 of skate" /><a href="#"
-              >About</a
-            >
-          </li>
-          <li>
-            <img src="images/s5.jpg" alt="icon4 of skate" /><a href="#">Shop</a>
-          </li>
+          <a href="#">
+            <li><img src="images/s1.png" alt="icon1 of skate" />Blog</li>
+          </a>
+          <a href="#">
+            <li><img src="images/s2.jpg" alt="icon2 of skate" />Challenges</li>
+          </a>
+          <a href="#contact">
+            <li><img src="images/s3.jpg" alt="icon3 of skate" />Contact</li>
+          </a>
+          <a href="#">
+            <li><img src="images/s4.jpg" alt="icon4 of skate" />Shop</li>
+          </a>
+          <a href="#about">
+            <li><img src="images/s5.jpg" alt="icon5 of skate" />About</li>
+          </a>
         </ul>
       </nav>
     </header>
 
-    <footer>
+    <main>
+      <section><article></article></section>
+    </main>
+
+    <!-- contact -->
+    <section id="contact">
       <form action="">
         <label for="fname">First name:</label><br />
         <input type="text" id="fname" name="fname" placeholder="Name" /><br />
@@ -69,6 +68,11 @@
         /><br /><br />
         <input type="submit" value="Submit" />
       </form>
+    </section>
+
+    <!-- footer -->
+    <footer id="about">
+      <p>2022 &copy; SK8</p>
     </footer>
   </body>
 </html>
